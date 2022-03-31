@@ -1,0 +1,26 @@
+.webdev{
+    display: flex;
+    background-color: lightblue;
+
+    /* horizontal allignment */
+    justify-content: center;
+    height: 200px;
+
+    /* vertical allignment */
+    align-items: center;
+}
+
+
+.webdev .dev1{
+    margin: 5px;
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+}
+
+.webdev .dev2{
+    margin: 5px;
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+}

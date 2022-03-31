@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+
+.header{
+    display: flex;
+    background-color: #000033;
+    height: 80px;
+    /* width: 200px; */
+}
+
+.image .img{
+    height: 60px;
+    /* background-color: aqua; */
+    
+}
+
+.image{
+    height: 80px;
+    width: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.addr{
+    /* height: 80px; */
+    /* width: 200px; */
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.addr .hello{
+    /* display: flex; */
+    /* background-color: blue; */
+    width: 120px;
+}
+
+
+.location{
+    display: flex;
+    height: 80px;
+    width: 200px;
+    /* background-color: yellow; */
+    margin-left: 10px;
+    
+    
+    
+}
+
+.location .logo{
+    color: white;
+    /* background-color:palevioletred; */
+    height: 50px;
+    margin: 5px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.search_column{
+    /* background-color:blue; */
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:10px;
+}
+
+.search_column .search_bar{
+    /* background-color:antiquewhite; */
+    display: flex;
+    /* align-items: center; */
+}
+
+.search_column .search_bar .search{
+    height: 40px;
+    width: 950px;
+    display: flex;
+} 
+
+.flag_logo{
+    margin-left: 10px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag_logo .indian{
+    height: 40%;
+    width: 85%;
+    display: flex;
+}
+
+
+.account_detail {
+    color: white;
+    margin-left: 20px;
+    /* background-color: bisque; */
+    height: 80px;
+    /* width: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

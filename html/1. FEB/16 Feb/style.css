@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+
+
+.first-div{
+    background-color: blue;
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+.input-1{
+    background-color: orange;
+    display: block;
+}
+
+.pppp{
+    /* display: block; */
+    background-color: azure;
+}
+.p-1{
+    display: inline;
+}

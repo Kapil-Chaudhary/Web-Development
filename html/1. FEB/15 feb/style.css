@@ -1,0 +1,39 @@
+/* attribute selector */
+/*  class  */
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.first-div{
+    margin: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: lightcoral;
+}
+
+.first-div h2{
+    /* margin-left: 50px; */
+    /* padding: 20px; */
+}
+
+.second-div{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+}
+.third-div{
+    height: 50%;
+    width: 50%;
+    background-color: lightgreen;
+}
+#fourth{
+    background-color: lightskyblue;
+}
+
+/* inline style > style tag > external css */
+/* pixal % with respect to parent   */

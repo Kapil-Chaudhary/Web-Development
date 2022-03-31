@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper,
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wrapper {
+    /* background: red; */
+}
+
+.wrapper>header {
+    padding: 30px;
+    display: flex;
+    /* background: blue; */
+    border-bottom: 1px solid grey;
+}
+
+.wrapper footer {
+    margin-top: auto;
+    background: rgba(121, 153, 70, 0.438);
+    height: 40px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrapper header .heading {
+    font-size: 2rem;
+    margin-right: auto;
+    /* background-color: rgb(141, 231, 81); */
+    /* margin-left: 40%; */
+
+    height: 50px;
+    width:5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 9%; */
+
+}
+
+.wrapper header .plus {
+    height: 50px;
+    width: 100px;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 90%; */
+    border-radius: 15%;
+    color: white;
+    font-size: x-large;
+    font-weight: 750;
+    border: none;
+    /* transform: scale(1); */
+    transition: all ease 200ms;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+.dialog{
+    background-color: rgba(47, 126, 190, 0.24);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center; 
+}
+
+.dialog .dialog-box{
+    opacity: 1;
+    position: relative;
+    width: 500px;
+    background-color: lightskyblue; 
+    padding: 20px; 
+}
+
+.dialog .dialog-box .cross{
+    background-color: crimson;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 97%;
+    border: none;
+}
+
+.dialog .dialog-box .cross div{
+    font-size: large;
+    color: aliceblue;
+}
+
+.dialog .dialog-box header{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.dialog .dialog-box div div input,
+.dialog .dialog-box div textarea{
+
+    width: 100%;
+}
+
+.dialog .dialog-box div .inner-div {
+    background-color: brown;
+}
+
+
+
+/* box after select */
+.box{
+    /* display: flex; */
+    background-color: rgb(115, 179, 157);
+    height: 300px;
+    width: 250px;
+    margin: 30px;
+    border: 1px solid rgba(121, 153, 70, 0.438);
+    border-radius: 4%;
+}
+
+.box header {
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    /* padding: 20px; */
+}
+
+.box header .icon-color-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.box header .icon-color-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.box header .icon-color-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.box main{
+    /* background-color: brown; */
+    height:86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box main textarea{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}

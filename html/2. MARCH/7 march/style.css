@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    background-color: violet;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .working .text{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.main .working .yes{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.formbox{
+    height: 500px;
+    background-color: antiquewhite;
+    /* margin: 50px; */
+}
+
+.formbox .form{
+    padding: 50px;
+}
+
+
+

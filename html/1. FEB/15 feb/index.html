@@ -1,0 +1,97 @@
+
+<!--    TODAY'S TOPIC -->
+<!-- /* inline styling and style tag  and external css file*/
+      /* css selector(element ,descendant , children ) */
+      /* attributes (class and id) */
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- style tag -->
+    <style>
+        /* css selector */
+        /* element selector */
+        div{
+            background-color: lightgray;
+            color: red;
+            font-size: large;
+            font-weight: larger;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main{
+            background-color: blue;
+        }
+
+        footer{
+            background-color: beige;
+        }
+
+        /* dicendent selector */
+        div div{
+            background-color: lightgreen;
+        }
+        div div button{
+            background-color: lightblue;
+        }
+
+        /* specificity */
+
+        /* childern selector */
+        div div > main{
+            background-color: red;
+        }
+        div div > main>button{
+            background-color: yellow;
+        }
+        div div > main > main {
+            background-color: tomato;
+        }
+
+        /* child div -> child main ->background main = red */
+        /* child div -> child main -> button -> background color -> yellow */
+        /* child div ->  child main -> main -> background color = tomoto */
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <div> 
+        <h2> Feb 15</h2>
+        <div>
+            <h3>div inside div </h3>
+            <button>submit</button>
+            <main>
+                <p>Lorem ipsum dolor sit.</p>
+                <button>child button</button>
+                <p>Lorem, ipsum dolor.</p>
+                <main>
+                     main inside main
+                </main>
+            </main>
+        </div>
+    </div>
+
+
+    <!-- inline styleing  ===> opening tag -->
+    <header style="background-color:lightcyan;">
+        <h3>WebDev</h3>
+        <input type="text" placeholder="search" style="border: 1px solid black;">
+    
+    </header><br>
+
+
+
+    <main >main</main><br>
+    <footer>footer</footer><br>
+</body>
+</html>

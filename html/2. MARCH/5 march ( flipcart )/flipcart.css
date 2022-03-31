@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_header{
+    background-color:deepskyblue;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.main_header .home_and_more{
+    color: white;
+    margin-left: 20%;
+    height: 60px;
+    width: 10   0px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+}
+
+.main_header .home_and_more .name{
+    display: flex;
+    margin-top: 6px;
+    font-style: italic;
+}
+.main_header .home_and_more explore_plus{
+    display: flex;
+    font-style:italic;
+}
+
+.main_header .search_bar{
+    /* back/ground-color: rebeccapurple; */
+    margin-left: 10px;
+    height: 60px;
+    width: 700px;
+    display: flex;
+
+}
+
+.main_header .search_bar .search_inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main_header .search_bar .search_inside .search{
+    height: 40px;
+    width: 650px;
+}
+.main_header .search_bar .search_inside .search_logo{
+    width: 40px;
+    position: absolute;
+    right: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+
+
+/* more detail */
+
+.main_header .more_detail{
+    display: flex;
+}
+
+.main_header .more_detail .login {
+    /* background-color: beige; */
+    margin-left: 100px;
+    height: 60px;
+    width: 100px;
+    display: flex;
+    /* flex-direction: column */
+    align-items: center;
+    justify-content: center;
+}
+
+.main_header .more_detail .login .login_box{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_header .more_detail .login .login_box .log_here{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: skyblue;
+    font-weight: 500;
+    /* display: flex; */
+}
+
+
+.main_header .more_detail .more_info{
+    /* background-color:antiquewhite; */
+    height: 60px;
+    width: 90px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_header .more_detail .more_info .more{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.main_header .more_detail .cart_all{
+    margin-left: 10px;
+    /* background-color: brown; */
+    height: 60px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_header .more_detail .cart_all .cart_img{
+    display: flex;
+    height: 20px;
+    width: 20px;
+}
+
+.main_header .more_detail .cart_all .cart {
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+
+/*  BODY  */
+
+/* body 1 */
+
+.body_1{
+    /* margin-left: 18%; */
+    /* margin-right: 18%; */
+    height: 120px;
+    background-color: beige;
+    display: flex;
+    padding: 5px;
+
+}
+
+.body_1 .top_offer .title_offer{
+    height: 100px;
+    width: 130px;
+    /* background-color:blue; */
+}
+
+.ofr{
+    /* background-color: red; */
+    text-align: center;
+}
+
+.title_offer img{
+    height: 80px;
+    width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
